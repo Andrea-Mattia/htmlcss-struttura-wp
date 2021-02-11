@@ -7,4 +7,63 @@
 
 body {
     font-family: sans-serif;
+    padding: 30px 100px;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+    background: pink;
+    margin-bottom: 15px;
+}
+
+/* UTILITY */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* MAIN CONTENT */
+.first-content {
+    height: 500px;
+    background: yellow;
+}
+
+
+.second-content {
+    height: 80px;
+    margin: 20px 0 0 0;
+    background: lightskyblue;
+}
+
+section .column-1,
+section .column-2,
+section .column-3 {
+    float: left;
+}
+
+.float {
+    background: blue;
+}
+
+section .column-1,
+section .column-3 {
+    height: 500px;
+    width: 25%;
+    margin-top: 20px;
+    background: dodgerblue;
+}
+
+section .column-2 {
+    height: 500px;
+    width: 46%;
+    margin: 20px 2%;
+    background: dodgerblue;
+}
+
+/* FOOTER */
+footer {
+    height: 30px;
+    background: purple;
 }
