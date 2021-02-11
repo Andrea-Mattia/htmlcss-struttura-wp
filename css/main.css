@@ -14,7 +14,7 @@ body {
 header {
     height: 100px;
     background: pink;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 /* UTILITY */
@@ -33,7 +33,7 @@ header {
 
 .second-content {
     height: 80px;
-    margin: 20px 0 0 0;
+    margin: 30px 0 0 0;
     background: lightskyblue;
 }
 
@@ -51,20 +51,20 @@ section .column-1,
 section .column-3 {
     height: 500px;
     width: 25%;
-    margin-top: 20px;
+    margin-top: 30px;
     background: dodgerblue;
 }
 
 section .column-2 {
     height: 500px;
     width: 46%;
-    margin: 20px 2%;
+    margin: 30px 2%;
     background: dodgerblue;
 }
 
 /* FOOTER */
 footer {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 5px;
     background: purple;
 }
